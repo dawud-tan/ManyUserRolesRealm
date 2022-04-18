@@ -7,12 +7,12 @@ repositories {
 }
 
 compileJava {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 dependencies {
-    compileOnlyApi "org.apache.tomcat:tomcat-catalina:10.0.16"
+    compileOnlyApi "org.apache.tomcat:tomcat-catalina:8.5.9"
 }
 
 sourceSets {
